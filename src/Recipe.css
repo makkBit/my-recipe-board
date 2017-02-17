@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio');
+
+
+div.recipe {
+    height: auto;
+    width: 250px;
+
+    background: #ddc173;
+
+    padding: 10px;
+
+    margin: 2px 0;
+    position: absolute;
+    cursor: -webkit-grab;
+    -webkit-box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, .2);
+    box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, .2);
+   /* word-wrap: break-word;*/
+
+     -webkit-box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, .2);
+    box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, .2);
+
+    z-index: -1;
+}
+
+div.recipe:active {
+    cursor: -webkit-grabbing;
+}
+
+div.recipe h5 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: 'Barrio', cursive;
+    color: #ffe;
+}
+
+div.recipe p {
+    font-size: 22px;
+    height: auto;
+    font-family: cursive;
+    text-align: center;
+    overflow: auto;
+    background: transparent;
+    color:white;
+}
+
+
+div.recipe > .save {
+    color: #55acee;
+    font-size: 20px;
+    opacity: 0;
+    float: right;
+    transition: opacity .25s linear;
+}
+
+div.recipe:hover > .save {
+    opacity: 1;
+}
+
+div.recipe > input {
+    height: 25%;
+    background:transparent;
+    font-weight: bold;
+    font-family: 'Barrio', cursive;
+    font-size: 22px;
+    word-wrap: break-word;
+}
+
+div.recipe > textarea {
+    height: 75%;
+    font-size:16px;
+    background: transparent;
+    font-family: Verdana,sans-serif;
+}
+
+
+
+.form-control{
+    border:0;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+
+
+.edit, .delete{
+    display: inline-block;
+    color: #55acee;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity .25s linear;
+    float: right;
+    padding: 2px;
+}
+
+div.recipe:hover > .edit {
+    opacity: 1;
+    
+}
+
+div.recipe:hover > .delete {
+    opacity: 1;
+    
+}
+
+
+

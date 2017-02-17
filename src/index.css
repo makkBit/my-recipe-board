@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  width: 100%;
+  background: #FF8008; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #FF8008 , #FFC837); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #FF8008 , #FFC837); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ /* background: url('https://img.clipartfest.com/37e186e198fac082f3c9736ce4f0c8f5_kitchen-wall-background-kitchen-background-clipart_1300-1095.jpeg') no-repeat;*/
+  background: url('bg.jpg');
+}
+
+@media only screen and (max-width: 768px) {
+
+  /* For mobile phones: */
+  body{
+  	background-size: auto;
+  }
+
+}
